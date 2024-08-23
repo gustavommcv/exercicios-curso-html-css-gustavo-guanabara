@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+    font-family: serif;
+    
+    /* Medidas absolutas:
+        cm, mm, in, px, pt, pc
+
+        Medidas relativas:
+         em, ex, rem, vw, %
+    */
+
+    /* Utilizar para fontes px ou em */
+    font-size: 2em;
+}

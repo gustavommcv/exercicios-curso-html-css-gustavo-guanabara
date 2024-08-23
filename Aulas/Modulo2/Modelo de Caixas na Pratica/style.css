@@ -1,0 +1,19 @@
+h1 {
+    display: inline-block;
+    background-color: lightblue;
+    height: 300px;
+    width: 300px;
+    /* border-width: 10px;
+    border-style: solid;
+    border-color: black; */
+
+    border: 10px solid black;
+    padding: 10px 10px 20px 4px;
+    margin: 20px auto;
+    outline: 5px dashed salmon;
+}
+
+
+a {
+    display: inline-block;
+}
