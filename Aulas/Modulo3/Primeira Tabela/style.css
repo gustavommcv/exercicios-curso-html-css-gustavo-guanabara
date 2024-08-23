@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 400px;
+    height: 400px;
+    border-collapse: collapse;
+}
+
+
+td {
+    border: 1px solid black;
+    padding: 4px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+tr.alt {
+    background-color: lightblue;
+}
+
+tr.alt > td:hover {
+    background-color: lightcoral;
+}
+
+td:hover {
+    background-color: lightsalmon;
+}
