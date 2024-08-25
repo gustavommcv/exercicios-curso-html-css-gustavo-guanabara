@@ -1,0 +1,30 @@
+main {
+    display: flex;
+    height: 300px;
+}
+
+section.form {
+    width: 70%;
+    height: 100%;
+}
+
+div.input input {
+    max-width: 450px;
+}
+
+
+section.form h1 {
+    font-size: 1.5em;
+    padding-bottom: 15px;
+}
+
+section.form p {
+    padding-bottom: 10px;
+}
+
+section.img {
+    width: 30%;
+    height: 100%;
+
+    border-radius: 20px 0px 0px 20px;
+}
