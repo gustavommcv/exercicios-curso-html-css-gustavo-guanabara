@@ -1,8 +1,11 @@
 # Repositório das atividades e exemplos do curso do Gustavo Guanabara de HTML e CSS
 
+* [Link GitHub Pages](https://gustavommcv.github.io/Curso-Html-CSS-Gustavo-Guanabara/)
+
 <img align="right" src="images/mascote-html5.png" width="200">
 
 ## Curso de HTML5 e CSS3
+
 
 Durante as **aulas de HTML5 e CSS3**, aprendemos como criar páginas web simples, focando tanto no seu conteúdo quanto no seu design. Toda a base começa sempre com essas tecnologias. 
 
