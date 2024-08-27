@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: lightsalmon;
+}
+
+main {
+    background-color: lightgreen;
+    height: 300px;
+    width: 100vw;
+
+    display: flex;
+    flex-flow: row nowrap;
+
+    justify-content: center;
+    align-items: center;
+}
+
+main section {
+    background-color: lightblue;
+    height: 200px;
+    width: 200px;
+
+
+}
