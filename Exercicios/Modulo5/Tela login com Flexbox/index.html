@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <section id="img">
+
+            </section>
+
+            <section id="form">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+
+                <form action="login.php">
+                    <fieldset>
+                        <label for="iemail">E:</label>
+                        <input type="email" name="email" id="iemail" required maxlength="20" placeholder="Seu E-mail">
+
+                        <label for="ipassword">S:</label>
+                        <input type="password" name="password" id="ipassword" required minlength="3" maxlength="100" placeholder="Sua senha">
+                    </fieldset>
+
+                    <input type="submit" value="Enviar" class="submit">
+
+                    <a href="forgotPassword.html" class="passwordButton">Esqueceu a senha?</a>
+                </form>
+            </section>
+        </section>
+    </main>
+</body>
+</html>
