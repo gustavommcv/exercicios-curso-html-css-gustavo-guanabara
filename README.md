@@ -1,5 +1,8 @@
 # Repositório das atividades e exemplos do curso do Gustavo Guanabara de HTML e CSS
 
+## Links Úteis 
+
+* [Link do Curso](https://www.cursoemvideo.com/curso/html5-css3-modulo1/)
 * [Link GitHub Pages](https://gustavommcv.github.io/Curso-Html-CSS-Gustavo-Guanabara/)
 
 <img align="right" src="images/mascote-html5.png" width="200">
