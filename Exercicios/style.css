@@ -49,6 +49,11 @@ header h1 a:hover {
     color: rgb(229, 229, 229);
 }
 
+.header-secondary {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
 
 /* Conteúdo principal */
 main {
@@ -63,6 +68,21 @@ main h2 {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 1.5rem;
+
+    display: inline-block;
+}
+
+.github-link {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #004a4f;
+
+    margin-bottom: 1.2rem;
+}
+
+.github-link:hover {
+    background-color: #00747C;
+    color: #ffffff;
 }
 
 main p {
@@ -128,32 +148,19 @@ footer {
     text-align: center;
 }
 
-/* Responsividade para telas maiores */
-@media screen and (max-width: 1045px) {
-    header h1 {
-        font-size: 1.4rem;
-    }
-
-    main h2 {
-        font-size: 1.4rem;
-    }
-
-    main p {
-        font-size: 1rem;
-    }
-
-    a {
-        font-size: 1rem;
-    }
-}
-
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 824px) {
     .big-h1 {
         display: none;
     }
 
     .small-h1 {
         display: block;
+    }
+
+    .header-secondary {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
     }
 }
 
@@ -170,12 +177,30 @@ footer {
 
 /* Ajustes para telas menores */
 @media screen and (max-width: 591px) {
+    section {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 496px) {
     header h1 {
         font-size: 1rem;
     }
 
-    section {
-        display: flex;
-        justify-content: center;
+    .header-secondary a {
+        font-size: 1rem;
+    }
+
+    main h2 {
+        font-size: 1rem;
+    }
+
+    main p {
+        font-size: 1rem;
+    }
+
+    a {
+        font-size: 1rem;
     }
 }
