@@ -33,6 +33,10 @@ header h1 {
     letter-spacing: 1.2px;
 }
 
+.small-h1 {
+    display: none;
+}
+
 main {
     flex-grow: 1;
     width: 100%;
@@ -61,27 +65,78 @@ main p {
     text-align: justify;
 }
 
+@media screen and (max-width: 1045px) {
+    header h1 {
+        font-size: 1.4rem;
+    }
+
+    main h2 {
+        font-size: 1.4rem;
+    }
+
+    main p {
+        font-size: 1rem;
+    }
+
+    a {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .big-h1 {
+        display: none;
+    }
+
+    .small-h1 {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    header h1 {
+        font-size: 1rem;
+    }
+
+    main h2 {
+        font-size: 1rem;
+    }
+
+    main p {
+        font-size: .9rem;
+    }
+
+    a {
+        font-size: .9rem;
+    }
+}
+
 .course-links {
     list-style-type: none;
     padding-left: 0;
-}
-
-.course-links li {
-    margin-bottom: 1.5rem;
 }
 
 a,
 a:visited {
     color: #00747C;
     text-decoration: none;
+    display: block;
+
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    background-color: #cacaca21;
+    padding: 0.3rem 0.9rem;
+    width: fit-content;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.381);
 }
 
 a:hover {
     color: #004a4f;
+    background-color: #cacaca42;
 }
 
 footer {
-    padding: 1rem;
+    padding: .5rem;
     background-color: #202022;
     color: #CACACA;
     text-align: center;
