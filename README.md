@@ -4,7 +4,7 @@ Bem-vindo ao repositório onde estão disponíveis todas as atividades e exemplo
 
 ## Links Úteis
 
-- [Link do GitHub Pages](https://gustavommcv.github.io/Curso-Html-CSS-Gustavo-Guanabara/)
+- [Link do GitHub Pages](https://gustavommcv.github.io/exercicios-curso-html-css-gustavo-guanabara/)
 - [Link do Curso](https://www.cursoemvideo.com/curso/html5-css3-modulo1/)
 - [PDFs das Aulas](https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf)
 
