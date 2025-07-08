@@ -1,17 +1,19 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 table {
-    border-collapse: collapse;
+  border-collapse: collapse;
 }
 
-th, td {
-    border: 1px solid black;
-    padding: 5px 10px;
+th,
+td {
+  border: 1px solid black;
+  padding: 5px 10px;
 }
 
-thead > tr, tr.notas {
-    background-color: gray;
-    color: rgb(231, 231, 231);
+thead > tr,
+tr.notas {
+  background-color: gray;
+  color: rgb(231, 231, 231);
 }

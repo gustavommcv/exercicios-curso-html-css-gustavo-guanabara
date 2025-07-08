@@ -1,21 +1,20 @@
 @media screen and (min-width: 768px) {
-    span#burguer {
-        display: none;
-    }
+  span#burguer {
+    display: none;
+  }
 
-    nav {
-        display: block;
-    }
+  nav {
+    display: block;
+  }
 
-    nav ul li {
-        display: inline-block;
-        text-decoration: none;
-        color: white;
-        background-color: #575757;
-        
-    }
+  nav ul li {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #575757;
+  }
 
-    nav ul li a {
-        border-top: none;
-    }
+  nav ul li a {
+    border-top: none;
+  }
 }

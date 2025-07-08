@@ -1,187 +1,185 @@
 @font-face {
-    font-family: 'idroid';
-    src: url('fontes/idroid.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "idroid";
+  src: url("fontes/idroid.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 :root {
-    --cor0: #3ad07c
+  --cor0: #3ad07c;
 }
 
 body {
-    background-color: #84e1ad;
-    margin: 0px;
+  background-color: #84e1ad;
+  margin: 0px;
 }
 
 header {
-    background: linear-gradient(to bottom, var(--cor0), #1d4d33);
-    padding: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
-    
+  background: linear-gradient(to bottom, var(--cor0), #1d4d33);
+  padding: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
 }
 
 header > h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    color: white;
-    font-weight: lighter;
-    font-size: 25px;
-    margin-bottom: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+  font-size: 25px;
+  margin-bottom: 30px;
 }
 
 header > p {
-    margin: 5px 10% 15px;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.603);
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 5px 10% 15px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.603);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header > nav {
-    padding: 10px
+  padding: 10px;
 }
 
 nav > a {
-    color: rgba(255, 255, 255, 0.603);
-    text-decoration: none;
-    padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+  color: rgba(255, 255, 255, 0.603);
+  text-decoration: none;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 nav > a:hover {
-    padding: 10px;
-    background-color: #29553d;
-    border-radius: 5px;
+  padding: 10px;
+  background-color: #29553d;
+  border-radius: 5px;
 }
 
 main {
-    background-color: white;
-    max-width: 1100px;
-    margin: 0 auto;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+  background-color: white;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
 }
 
-
 article > h1 {
-    margin-left:20px;
-    font-family: 'idroid', sans-serif;
-    font-weight: bolder;
-    font-size: x-large;
-    color: #29553d;
-    margin-top: 0px;
+  margin-left: 20px;
+  font-family: "idroid", sans-serif;
+  font-weight: bolder;
+  font-size: x-large;
+  color: #29553d;
+  margin-top: 0px;
 }
 
 article > h2 {
-    margin-left:20px;
-    font-family: 'idroid', sans-serif;
-    font-weight: bolder;
-    font-size: large;
-    color: #29553d;
-    background: linear-gradient(to right, #3ad07b6c, #ffffff3b);
+  margin-left: 20px;
+  font-family: "idroid", sans-serif;
+  font-weight: bolder;
+  font-size: large;
+  color: #29553d;
+  background: linear-gradient(to right, #3ad07b6c, #ffffff3b);
 }
 
 article > p {
-    margin-top: 5px;
-    margin-left:20px;
-    display: block;
-    width: 90%;
-    font-family: sans-serif;
-    text-indent: 2em;
-    text-align: justify;
-    line-height: 30px;
+  margin-top: 5px;
+  margin-left: 20px;
+  display: block;
+  width: 90%;
+  font-family: sans-serif;
+  text-indent: 2em;
+  text-align: justify;
+  line-height: 30px;
 }
 
-p > a { 
-    text-decoration: none;
-    font-weight: bolder;
-    color: #1a462e;
-    background-color: #60ca87;
-    padding: 5px;
+p > a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: #1a462e;
+  background-color: #60ca87;
+  padding: 5px;
 }
 
 p > a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 picture {
-    margin: 0px auto;
-    display: flex;
-    justify-content: center;
-    padding: 1%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  padding: 1%;
 }
 
 picture > img {
-    display: block;
-    width: 98%;
+  display: block;
+  width: 98%;
 }
 
 article > img {
-    display: block;
-    margin: auto;
+  display: block;
+  margin: auto;
 }
 
 div.video {
-    background-color: #1a462e;
-    margin: auto auto 30px auto;
-    padding: 20px;
-    padding-bottom: 54.5%;
+  background-color: #1a462e;
+  margin: auto auto 30px auto;
+  padding: 20px;
+  padding-bottom: 54.5%;
 
-    position: relative;
+  position: relative;
 }
 
 div.video > iframe {
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
 }
 
 aside {
-    background-color: #e6f2e5; 
-    margin: 0px 2% 2% 2%;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+  background-color: #e6f2e5;
+  margin: 0px 2% 2% 2%;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
 }
 
 aside > h3 {
-    margin: -10px -10px 0px -10px;
-    background-color: #32a85d;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 10px 10px 0px 0px;
+  margin: -10px -10px 0px -10px;
+  background-color: #32a85d;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px 10px 0px 0px;
 }
 
 aside > ul {
-    list-style-type: '✔';
-    list-style-position: inside;
-    columns: 2;
-    font-family: Arial, Helvetica, sans-serif;
+  list-style-type: "✔";
+  list-style-position: inside;
+  columns: 2;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 aside > p {
-    margin-top: 0px;
-    padding-top: 10px;
-    display: block;
-    width: 90%;
-    font-family: sans-serif;
-    text-indent: 2em;
-    text-align: justify;
+  margin-top: 0px;
+  padding-top: 10px;
+  display: block;
+  width: 90%;
+  font-family: sans-serif;
+  text-indent: 2em;
+  text-align: justify;
 }
 
 footer {
-    text-align: center;
-    background-color: #1d4d33;
+  text-align: center;
+  background-color: #1d4d33;
 }
 
 footer > p {
-    padding: 5px;
-    color: white;
-    margin: 15px 0px 0px 0px;
-    font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+  color: white;
+  margin: 15px 0px 0px 0px;
+  font-family: Arial, Helvetica, sans-serif;
 }

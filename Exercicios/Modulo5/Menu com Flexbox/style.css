@@ -1,69 +1,81 @@
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 
-    box-sizing: border-box;
+  box-sizing: border-box;
 
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
 }
 
-body, html {
-    width: 100vw;
-    height: 100vh;
+body,
+html {
+  width: 100vw;
+  height: 100vh;
 
-    background-color: lightgrey;
+  background-color: lightgrey;
 }
 
 header {
-    background-color: gray;
+  background-color: gray;
 
-    padding: 10px;
+  padding: 10px;
 
-    color: white;
+  color: white;
 
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 
 header nav ul li {
-    display: inline-block;
-    padding: 10px;
-    margin-top: 5px;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 5px;
 
-    background-color: black;
-    border-radius: 5px;
+  background-color: black;
+  border-radius: 5px;
 }
 
 header nav ul li:hover {
-    background-color: white;
-    color: black;
+  background-color: white;
+  color: black;
 }
 
 @media screen and (max-width: 518px) {
-    header {
-        flex-flow: column;
-    }
+  header {
+    flex-flow: column;
+  }
 
-    header nav ul li {
-        text-align: center;
-        display: block;
-    }
+  header nav ul li {
+    text-align: center;
+    display: block;
+  }
 }
 
 main {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 main section {
-    background-color: white;
-    width: 95%;
+  background-color: white;
+  width: 95%;
 
-    max-width: 600px;
+  max-width: 600px;
 
-    margin: 10px;
+  margin: 10px;
 
-    border-radius: 10px;
-    padding: 10px;
+  border-radius: 10px;
+  padding: 10px;
 }
